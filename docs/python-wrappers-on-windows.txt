@@ -1,0 +1,18 @@
+A quick HOWTO for installing the Python wrappers on Windows.
+
+You need to have Python 2.6 installed. If it is installed prior to OpenCV,
+then OpenCV installer will detect it and will install the wrappers.
+
+To recompile the wrappers from scratch, you will also need Visual Studio 2005 or 2008
+(any edition, Express, Standard, Professional ...) with the properly set environment
+variables (INCLUDE, LIB, PATH). The variables can be set either during installation,
+or using <Visual Studio Install Directory>\Common7\Tools\vsvars32.bat.
+
+Launch the command shell.
+Enter <OpenCV Install Directory>\interfaces\swig\python.
+Type
+    
+    python setup-for-win.py
+
+Look at http://groups.yahoo.com/group/OpenCV/ if you have any
+comments, or if you need help about OpenCV.
